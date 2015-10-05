@@ -1,0 +1,310 @@
+2015-09-21 17:39:02 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/Controller/ItemsController.php, line 7]
+2015-09-21 17:39:02 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/shinozak...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/shinozak...', 7, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/shinozak...', 7, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-21 17:39:48 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/Controller/ItemsController.php, line 7]
+2015-09-21 17:39:48 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/shinozak...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/shinozak...', 7, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/shinozak...', 7, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-21 17:42:04 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/Controller/ItemsController.php, line 5]
+2015-09-21 17:42:04 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/shinozak...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/shinozak...', 5, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/shinozak...', 5, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-21 17:42:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/Controller/ItemsController.php, line 5]
+2015-09-21 17:42:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/shinozak...', 5)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/shinozak...', 5, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/shinozak...', 5, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-21 17:43:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/Controller/ItemsController.php, line 7]
+2015-09-21 17:43:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/shinozak...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/shinozak...', 7, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/shinozak...', 7, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-21 17:43:30 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/Controller/ItemsController.php, line 7]
+2015-09-21 17:43:30 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/shinozak...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/shinozak...', 7, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/shinozak...', 7, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-21 17:44:54 Error: Fatal Error (1): Call to a member function find() on a non-object in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/Controller/ItemsController.php, line 9]
+2015-09-21 17:44:54 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/shinozak...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/shinozak...', 9, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/shinozak...', 9, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-21 17:45:06 Error: [MissingTableException] Table mst_arms for model mst_arm was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'mst_arms',
+  'class' => 'mst_arm',
+  'ds' => 'default',
+)
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Model/Model.php(3644): Model->setSource('mst_arms')
+#1 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/Controller/ItemsController.php(9): Model->find('all')
+#4 [internal function]: ItemsController->index()
+#5 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(ItemsController), Array)
+#6 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#8 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-09-21 17:49:46 Error: [MissingViewException] View file "Items/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Items/index.ctp',
+)
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#4 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-09-22 11:11:09 Error: [MissingControllerException] Controller class TwitterBootstrapController could not be found.
+Exception Attributes: array (
+  'class' => 'TwitterBootstrapController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/twitter_bootstrap/
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 11:20:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/css/bootstrap.min.css
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 11:20:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 11:20:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/js/bootstrap.min.js
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 11:22:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 11:25:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 11:25:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 11:30:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 11:32:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/css/bootstrap-responsive.min.css
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 12:10:12 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/users/login
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 12:11:14 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/users/login
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 12:11:17 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/users/login
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 12:14:56 Error: [MissingActionException] Action ItemsController::bootstrap3() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'bootstrap3',
+)
+Request URL: /cakephp_ngw2/Items/bootstrap3
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-22 12:15:11 Error: [MissingControllerException] Controller class Bootstrap3Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Bootstrap3Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp_ngw2/bootstrap3
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-09-22 17:26:46 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/View/Items/index.ctp, line 9]
+2015-09-22 17:26:46 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/shinozak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/shinozak...', 9, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/shinozak...', 9, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-22 17:27:51 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/View/Items/index.ctp, line 9]
+2015-09-22 17:27:51 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/shinozak...', 9)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/shinozak...', 9, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/shinozak...', 9, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-22 17:29:06 Error: Fatal Error (4): syntax error, unexpected T_ENDFOREACH in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/View/Items/index.ctp, line 12]
+2015-09-22 17:29:06 Error: [FatalErrorException] syntax error, unexpected T_ENDFOREACH
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/shinozak...', 12)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/shinozak...', 12, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/shinozak...', 12, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-22 17:47:17 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/View/Items/index.ctp, line 10]
+2015-09-22 17:47:17 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/shinozak...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/shinozak...', 10, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/shinozak...', 10, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-22 17:47:33 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/View/Items/index.ctp, line 10]
+2015-09-22 17:47:33 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/shinozak...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/shinozak...', 10, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/shinozak...', 10, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-22 17:48:09 Error: Fatal Error (4): syntax error, unexpected '<' in [/Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/View/Items/index.ctp, line 10]
+2015-09-22 17:48:09 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp_ngw2/Items
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/shinozak...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/shinozak...', 10, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/shinozak...', 10, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-09-27 15:09:22 Error: [MissingActionException] Action ItemsController::bootstrap3() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'bootstrap3',
+)
+Request URL: /cakephp_ngw2/Items/bootstrap3
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-09-27 15:09:25 Error: [MissingActionException] Action ItemsController::bootstrap3() could not be found.
+Exception Attributes: array (
+  'controller' => 'ItemsController',
+  'action' => 'bootstrap3',
+)
+Request URL: /cakephp_ngw2/Items/bootstrap3
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
+#2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
