@@ -308,3 +308,76 @@ Stack Trace:
 #1 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ItemsController), Object(CakeRequest))
 #2 /Users/shinozakikiyonori/Documents/development/workspace/cakephp_ngw2/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-10-06 21:00:42 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /index.html
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-08 17:06:43 Error: [MissingControllerException] Controller class TopController could not be found.
+Exception Attributes: array (
+  'class' => 'TopController',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-10-08 17:07:21 Error: [MissingActionException] Action TopPagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'TopPagesController',
+  'action' => 'display',
+)
+Request URL: /
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopPagesController), Object(CakeRequest))
+#2 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-09 12:11:36 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/Applications/MAMP/tmp/mysql/mysql.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /samples/
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(3644): Model->setSource('samples')
+#5 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/Controller/SamplesController.php(9): Model->find('all')
+#8 [internal function]: SamplesController->index()
+#9 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(SamplesController), Array)
+#10 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(SamplesController), Object(CakeRequest))
+#12 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-10-09 12:11:52 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/Applications/MAMP/tmp/mysql/mysql.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(3644): Model->setSource('samples')
+#5 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/Controller/TopPagesController.php(9): Model->find('all')
+#8 [internal function]: TopPagesController->index('home')
+#9 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(TopPagesController), Array)
+#10 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(TopPagesController), Object(CakeRequest))
+#12 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
