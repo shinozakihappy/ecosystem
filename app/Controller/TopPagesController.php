@@ -5,7 +5,9 @@ class TopPagesController extends AppController{
 
     public function index(){
     	
-    	var_dump($this->sample);
+    	if(Configure::read("debug")>=2){
+//    		debug($this->sample);
+    	}
         $this->set('samples',$this->sample->find('all'));
     }
 }

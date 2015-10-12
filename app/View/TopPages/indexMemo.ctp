@@ -63,54 +63,35 @@
   <![endif]-->
 </head>
 
-<body style="background:#F0F4C3;">
+<body class="bg-success">
 
 <div class="container">        <!-- 全体を囲むコンテナ -->
 
 <h1>Grid system （位置をずらす）</h1>
 
 <div class="row row-40">
-	  <div class="col-xs-8 well well-sm" style="padding: 10px 10px 10px 10px; border-color: #7AC2E8; height:150px;">
+	  <div class="col-xs-4  well well-sm" style="padding: 10px 10px 10px 10px; border-color: #7AC2E8; height:150px;">
+	  	  <div style="background:#CCC;">受付案内</div>
 	  </div>
-	  <div class="col-xs-4 well well-sm" style="height:150px;">
-	  	  お電話でのお問い合わせ<br>
-	  	  xxx-xxx-xxxx
-      </div>
+	  <div class="col-xs-4" style="well;background:#CCC;height:150px;">商品B</div>
+	  <div class="col-xs-4" style="padding: 10px 10px 10px 10px;background:#CCC;">商品C</div>
 
 </div>
 <div class="row">
-  <div class="col-xs-8 well well-sm gutter-10" style="padding: 10px 10px 10px 10px;">受付案内</div>
+  <div class="col-xs-4 well well-sm gutter-10" style="padding: 10px 10px 10px 10px;">受付案内</div>
+  <div class="col-xs-4 well well-lg">商品H</div>
   <div class="col-xs-4">商品I</div>
 </div>
 <div class="row row-40">
-  <div class="col-xs-8 well well-sm"><div> 商品G</div></div>
-  <div class="col-xs-4 well well-sm">
-診療受付時間
-  <table class="table table-striped table-bordered table-hover" style="background:#B2EBF2;">
+  <div class="col-xs-4"><div> 商品G</div></div>
+  <div class="col-xs-4">商品H</div>
+  <div class="col-xs-4">
+    商品I
+  <table class="table">
     <thead>
       <tr>
-        <th>曜日</th>
-        <th>午前</th>
-        <th>午後</th>
-        <th>夜間</th>
-      </tr>
-    </thead>
-    <thead>
-      <tr>
-        <th>月〜金</th>
-        <th>8:00～12:30</th>
-        <th>13:30～17:00</th>
-        <th>17:30～20:00</th>
-      </tr>
-    </thead>
-    <thead>
-      <tr>
-      <tr>
-        <th>土</th>
-        <th>8:00～12:30</th>
-        <th>13:30～17:00</th>
-        <th>休診</th>
-      </tr>
+        <th>Last Name</th>
+        <th>Username</th>
       </tr>
     </thead>
    </table>
