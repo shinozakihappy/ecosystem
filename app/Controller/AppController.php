@@ -44,6 +44,29 @@ class AppController extends Controller {
 			)
 		)
 	); */
+	
+	
+	
+	//使用コンポーネントの登録
+	public $components = array(
+			'Session',
+			'Auth' => array(
+					//ログイン後の移動先
+					'loginRedirect' => array('controller' => 'users', 'action' => 'index'),
+					//ログアウ後の移動先
+					'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
+					//ログインページのパス
+					'loginAction' => array('controller' => 'users', 'action' => 'login'),
+					//未ログイン時のメッセージ
+					'authError' => 'あなたのお名前とパスワードを入力して下さい。',
+					
+/*					'authenticate' => array(
+							'Form' => array(
+								'passwordHasher' => 'Blowfish'
+							)
+					) */
+			)
+	);
 
     // BoostCakeを読み込み
     public $helpers = array(
@@ -51,4 +74,66 @@ class AppController extends Controller {
         'Form' => array('className' => 'BoostCake.BoostCakeForm'),
         'Paginator' => array('className' => 'BoostCake.BoostCakePaginator'),
     );
+    
+    
+    public function beforeFilter(){
+    	
+    	$user_data = $this->Auth->user();
+    	
+    	if(is_null($user_data)){
+    	
+    		$user_data['username'] = 'guest';
+    	
+    	}
+    	
+    	$this->set('userData', $user_data);
+    	 
+    }
+
+    public function isAuthorized($user) {
+    
+//    	return $this->checkRoleData();
+    
+    	/*		// 登録済ユーザーは投稿できる
+    		if (array_key_exists("admin",$this->roledata) === 'admin') {
+    	return true;
+    	}
+    
+    	// 投稿のオーナーは編集や削除ができる
+    	if (in_array($this->action, array('edit', 'delete'))) {
+    	$postId = (int) $this->request->params['pass'][0];
+    	if ($this->Post->isOwnedBy($postId, $user['id'])) {
+    	return true;
+    	}
+    	} */
+    
+    
+    	return parent::isAuthorized($user);
+    }
+    
+    public function checkRoleData(){
+    
+    	if (array_key_exists("admin",$this->roledata) == true) {
+    
+    		if ($this->user['role'] == "admin") {
+    			return true;
+    		}
+    			
+    	}
+    
+    	if (array_key_exists($this->user['role'],$this->roledata) == true) {
+    
+    		if (in_array($this->roledata[$this->user['role']][$this->name],$this->action) == true) {
+    			return true;
+    		}
+    		else {
+    			return false;
+    		}
+    
+    	}
+    
+    	return false;
+    		
+    }
+    
 }

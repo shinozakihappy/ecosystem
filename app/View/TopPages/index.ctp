@@ -63,16 +63,18 @@
   <![endif]-->
 </head>
 
-<body style="background:#F0F4C3;">
+<body style="background:#CFD8DC;">
 
 <div class="container">        <!-- 全体を囲むコンテナ -->
 
-<h1>Grid system （位置をずらす）</h1>
-
-<div class="row row-40">
-	  <div class="col-xs-8 well well-sm" style="padding: 10px 10px 10px 10px; border-color: #7AC2E8; height:150px;">
+<div class="row">
+	  <div class="col-xs-4 well" style="padding: 10px 10px 10px 10px; border-color: #455A64;">
+	  <?php echo $this->Html->image('org/light_forest.jpg',array('alt' =>'あるとを記述','class' => 'img-rounded img-responsive')); ?>
 	  </div>
-	  <div class="col-xs-4 well well-sm" style="height:150px;">
+	  <div class="col-xs-4 well" style="padding: 10px 10px 10px 10px; border-color: #455A64;">
+	  <?php echo $this->Html->image('org/light_forest.jpg',array('alt' =>'あるとを記述','class' => 'img-rounded img-responsive')); ?>
+	  </div>
+	  <div class="col-xs-4 well" style="padding: 10px 10px 10px 10px; border-color: #455A64; height:150px;">
 	  	  お電話でのお問い合わせ<br>
 	  	  xxx-xxx-xxxx
       </div>
@@ -118,9 +120,6 @@
 </div>
 
 </div>        <!-- 全体を囲むコンテナ -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
