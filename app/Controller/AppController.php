@@ -85,6 +85,8 @@ class AppController extends Controller {
     		$user_data['username'] = 'guest';
     	
     	}
+
+//    	debug($user_data);
     	
     	$this->set('userData', $user_data);
     	 

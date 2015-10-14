@@ -1,4 +1,4 @@
-<p>ようこそ！<?php echo h($username);?>さん</p>
+<p>ようこそ！<?php echo h($userData['username']);?>さん</p>
 <p>あなたの登録メールアドレスは<?php echo h($userData['email']);?>です。</p>
 <h2>ここはIndexページです</h2>
 <ul>
@@ -11,11 +11,6 @@ array(
 'controller' => 'Users',
 'action' => 'add')
 );
-?>
-<?php
-echo "<br>" . $aname . "<br>";
-echo $cname . "<br>";
-echo $roledata . "<br>";
 ?>
 </li>
 </ul>

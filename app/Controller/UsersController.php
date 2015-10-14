@@ -16,7 +16,7 @@ class UsersController extends AppController{
  	
  	//認証情報取得
  	
- 	$user_data = $this->Auth->user();
+ /*	$user_data = $this->Auth->user();
  	
  	if(is_null($user_data)){
  	
@@ -24,10 +24,10 @@ class UsersController extends AppController{
  	
  	}
  	
- 	var_dump($user_data);
+ 	var_dump($user_data); */
  	
  //アクセス情報をビューに渡す
- $this->set('username',$user_data['username']);
+// $this->set('username',$user_data['username']);
  $this->set('aname',$this->action);
  
  $this->set('roledata',print_r($this->roledata,true));
