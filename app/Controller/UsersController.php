@@ -1,7 +1,7 @@
 <?php
 class UsersController extends AppController{
  //使用モデルの指定（省略可）
- public $uses = array('User');
+ public $uses = array('User','Good');
 
  
  function beforeFilter(){
@@ -9,6 +9,7 @@ class UsersController extends AppController{
  parent::beforeFilter();
  //認証不要のページの指定
  $this->Auth->allow('login', 'logout','add','index');
+ $this->layout = 'defaultAdmin';
  
  }
  //indexアクション（認証が必要なページ）
@@ -29,6 +30,7 @@ class UsersController extends AppController{
  //アクセス情報をビューに渡す
 // $this->set('username',$user_data['username']);
  $this->set('aname',$this->action);
+
  
  $this->set('roledata',print_r($this->roledata,true));
  
@@ -91,5 +93,9 @@ class UsersController extends AppController{
  
  }
 
+ function listgoods(){
+ 	$this->set('goods',$this->Good->find('all'));
+ }
+ 
 }
 

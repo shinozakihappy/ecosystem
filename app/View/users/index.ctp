@@ -3,15 +3,7 @@
 <h2>ここはIndexページです</h2>
 <ul>
 <li><?php echo $this->Html->link('ログアウト','logout',array(),'ログアウトしてもいいですか？');?></li>
-<li>
-<?php
-echo $this->Html->link(
-'新規ユーザ作成',
-array(
-'controller' => 'Users',
-'action' => 'add')
-);
-?>
-</li>
+<li><?php echo $this->Html->link('グッズ','/Goods',array('controller' => 'Goods','action' => 'index'));?></li>
+<li><?php echo $this->Html->link('新規ユーザ作成','add',array('controller' => 'Users','action' => 'add'));?></li>
 </ul>
 

@@ -64,7 +64,6 @@
         <th></th>
         <th></th>
     </tr>
-    <?php $recCnt = 0; ?>
     <?php foreach($samples as $sampleRec): ?>
     <tr>
         <td><?php echo $sampleRec['sample']['id']; ?></td>

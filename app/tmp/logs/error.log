@@ -431,3 +431,13 @@ Stack Trace:
 #3 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-10-16 12:39:51 Error: Fatal Error (4): syntax error, unexpected '{' in [/Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/View/Layouts/defaultAdmin.ctp, line 54]
+2015-10-16 12:39:51 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /users/listgoods
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/shinozak...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/shinozak...', 54, Array)
+#2 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/shinozak...', 54, Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

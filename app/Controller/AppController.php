@@ -45,6 +45,7 @@ class AppController extends Controller {
 		)
 	); */
 	
+	public $loginMode = false;
 	
 	
 	//使用コンポーネントの登録
@@ -83,12 +84,22 @@ class AppController extends Controller {
     	if(is_null($user_data)){
     	
     		$user_data['username'] = 'guest';
-    	
+    		$user_data['email'] = '';
+    		
+    		$this->loginMode = false;
+    		
     	}
-
+    	else {
+    		$this->loginMode = true;
+    		
+    	}
+    	
+    	 
 //    	debug($user_data);
     	
+    	$this->set('loginMode', false);
     	$this->set('userData', $user_data);
+
     	 
     }
 

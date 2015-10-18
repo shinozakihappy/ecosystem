@@ -1,0 +1,30 @@
+<div class="container">        <!-- 全体を囲むコンテナ -->
+  <table class="table table-striped table-bordered table-hover" style="background:#B2EBF2;">
+    <thead>
+      <tr>
+        <th>曜日</th>
+        <th>午前</th>
+        <th>午後</th>
+        <th>夜間</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr>
+        <th>月〜金</th>
+        <th>8:00～12:30</th>
+        <th>13:30～17:00</th>
+        <th>17:30～20:00</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr>
+      <tr>
+        <th>土</th>
+        <th>8:00～12:30</th>
+        <th>13:30～17:00</th>
+        <th>休診</th>
+      </tr>
+      </tr>
+    </thead>
+   </table>
+</div>
