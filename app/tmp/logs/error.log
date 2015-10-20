@@ -477,3 +477,46 @@ Stack Trace:
 #3 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Core/App.php(906): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-10-19 11:06:22 Error: [MissingActionException] Action GoodsController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'GoodsController',
+  'action' => 'login',
+)
+Request URL: /goods/login
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(GoodsController), Object(CakeRequest))
+#2 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-19 11:10:14 Error: [MissingActionException] Action GoodsController::listgoods() could not be found.
+Exception Attributes: array (
+  'controller' => 'GoodsController',
+  'action' => 'listgoods',
+)
+Request URL: /goods/listgoods
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(GoodsController), Object(CakeRequest))
+#2 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-10-20 14:03:40 Error: [MissingBehaviorException] Behavior class SoftDeletableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SoftDeletableBehavior',
+  'plugin' => false,
+)
+Request URL: /features
+Stack Trace:
+#0 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/BehaviorCollection.php(66): BehaviorCollection->load('SoftDeletable', Array)
+#1 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Model/Model.php(774): BehaviorCollection->init('Feature', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Utility/ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Controller/Controller.php(741): ClassRegistry::init(Array)
+#5 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Controller/Controller.php(367): Controller->loadModel('Feature')
+#6 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Controller/Controller.php(405): Controller->__isset('Feature')
+#7 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/Controller/FeaturesController.php(18): Controller->__get('Feature')
+#8 [internal function]: FeaturesController->index()
+#9 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FeaturesController), Array)
+#10 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FeaturesController), Object(CakeRequest))
+#12 /Users/shinozakikiyonori/Documents/development/workspace/ecosystem/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

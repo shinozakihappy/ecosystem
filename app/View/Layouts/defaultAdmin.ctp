@@ -53,15 +53,26 @@
 					<li><a href="#">メニュー <span class="sr-only">(current)</span></a></li>
 					<?php if($loginMode == true) { ?>
 					<li><?php echo $this->Html->link('ログアウト','logout',array(),'ログアウトしてもいいですか？');?></li>
-					<li><?php echo $this->Html->link('ログインページへ','login');?></li>
-					<li><?php echo $this->Html->link('グッズリスト','listgoods',array('controller' => 'Users','action' => 'listgoods'));?></li>
-					<li><?php echo $this->Html->link('新規ユーザ作成','add',array('controller' => 'Users','action' => 'add'));?></li>
-					<li><?php echo $this->Html->link('新規作成','add');?></li>
 					<?php } else { ?>
 					<li><?php echo $this->Html->link('ログインページ','login');?></li>
 					<?php } ?>
+
+				  <!-- ここが表示されるボタン <a>タグでもOK -->
+					<?php if($loginMode == true) { ?>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+					<li><?php echo $this->Html->link('商品管理','listgoods',array('controller' => 'Goods','action' => 'index'));?></li>
+					<li><?php echo $this->Html->link('特集管理','listgoods',array('controller' => 'Features','action' => 'index'));?></li>
+					<li><?php echo $this->Html->link('商品タイプ管理','listgoods',array('controller' => 'GoodTyeps','action' => 'index'));?></li>
+					<li><?php echo $this->Html->link('新規ユーザ作成','add',array('controller' => 'Users','action' => 'add'));?></li>
+					<li><?php echo $this->Html->link('新規作成','add');?></li>
+          </ul>
+        </li>
+					<?php } ?>
 					
 				</ul>
+				
 			</div>
 		</div>
 	</nav>

@@ -10,6 +10,7 @@ class GoodsController extends AppController{
  parent::beforeFilter();
  $this->layout = 'defaultAdmin';
  
+ 	$this->set('loginMode',true);
  }
  //indexアクション
  function index(){
@@ -153,6 +154,13 @@ class GoodsController extends AppController{
     if($this->request->is('get'))
     {
         $this->request->data=$this->Good->read();   //更新画面の表示
+        
+        debug($this->request->data);
+        
+//        $this->set('pathImgFileName1',Configure::read("up_img_path") . "/");
+//        $this->set('pathImgFileName2',$this->Good->find('all'));
+//        $this->set('pathImgFileName3',$this->Good->find('all'));
+        
     }
     else
     {
@@ -167,9 +175,7 @@ class GoodsController extends AppController{
         }
     }
     
-    $this->set('pathImgFileName1',Configure::read("up_img_path") . "/");
-    $this->set('pathImgFileName2',$this->Good->find('all'));
-    $this->set('pathImgFileName3',$this->Good->find('all'));
+    
     
  }
   
